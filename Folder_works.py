@@ -10,4 +10,5 @@ for adres, dir, files in path:
         if '.exe' in full:
             if time.time() - os.path.getctime(full) < 1000000:
                 spisok.append(full)
+
 print (spisok)
