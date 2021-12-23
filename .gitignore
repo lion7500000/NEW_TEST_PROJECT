@@ -1,0 +1,28 @@
+.ropeproject
+#vertual
+/venv/
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# idea
+.idea/
+*.iws/
+
+# logs
+*.log
+
+# app files
+app_binaries/
+*.apk
+*.app
+*.ipa
+
+.DS_Store
+
+/features/test_results/*
+
+# Screenshots
+*.png
